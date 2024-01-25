@@ -1,0 +1,25 @@
+:root{
+    --cor-branca: #ffffff;
+    --cor-cinza: #363636;
+    --cor-azul: #191970;
+}
+
+body {
+    background-color: var(--cor-cinza);
+    color: var(--cor-branca);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-section {
+    background-image: url(/assets/background2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container {
+    height: 100vh;
+}
